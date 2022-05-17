@@ -392,11 +392,12 @@ ul{
 
 .act-thumb{
     position: relative;
+    display: flex;
+    align-items: flex-end;
 }
 
 .act-text{
     position: absolute;
-    bottom: 0;
     width: 370px;
     padding-top: 27px;
     padding-bottom: 27px;
